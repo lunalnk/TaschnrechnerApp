@@ -12,7 +12,7 @@
     
 
     <div class="container">
-        <div class="card" style="width: 19rem;">
+        <div class="card" style="width: 25rem;">
           
         <h2>Multi-Taschenrechner</h2>
 
@@ -42,12 +42,15 @@
         </div>
 
         <!-- Buttons -->
-        <div class="row mt-2">
+        <div class="row text-center">
             <div class="col">
-                <button class="btn btn-primary" onclick="addieren()"><Primary>Addition</button>
-                <button class="btn btn-success" onclick="subtrahieren()">Subtraktion</button>
-                <button class="btn btn-danger" onclick="multiplizieren()">Multiplikation</button>
-                <button class="btn btn-info" onclick="dividieren()">Division</button>
+                <button class="btn btn-primary w-40 btn-lg" onclick="addieren()"><Primary>Addition</button>
+                <button class="btn btn-success w-40 btn-lg" onclick="subtrahieren()">Subtraktion</button>
+                <p></p>
+                <button class="btn btn-danger w-40 btn-lg" onclick="multiplizieren()">Multiplikation</button>
+                <button class="btn btn-info w-40 btn-lg" onclick="dividieren()">Division</button>
+                <p></p>
+                <button class="btn btn-outline-dark w-100" onclick="clearDisplay()">Löschen</button>
             </div>
         </div>
         <div id="idAusgabe">Bitte drücken Sie den jeweiigen Button für die Berechnung</div>
